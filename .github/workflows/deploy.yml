@@ -1,8 +1,2 @@
 - name: Deploy to GitHub Pages
   uses: JamesIves/github-pages-deploy-action@v4.3.3
-      with:
-        token: ${{ secrets.ACCESS_TOKEN }}
-        repository-name: https://github.com/Kyokox1/pruebas
-        branch: gh-pages
-        folder: report
-        target-folder: docs
